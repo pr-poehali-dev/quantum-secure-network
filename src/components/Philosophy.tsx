@@ -3,23 +3,23 @@ import { HighlightedText } from "./HighlightedText"
 
 const philosophyItems = [
   {
-    title: "Минимализм со смыслом",
+    title: "Глубокая чистка наполнителя",
     description:
-      "Каждый элемент имеет свое назначение и пространство для дыхания. Мы убираем лишнее, чтобы раскрыть то, что действительно важно.",
+      "Мы удаляем загрязнения не только с поверхности, но и из самого наполнителя — пух, синтепон, холлофайбер. Подушка чистая насквозь, а не снаружи.",
   },
   {
-    title: "Архитектурный подход",
+    title: "Уничтожение пылевых клещей",
     description:
-      "Планировки, вдохновленные структурой, ритмом и материальностью. Здания, которые говорят через пропорции и свет.",
+      "Специальная термическая обработка уничтожает до 99,9% пылевых клещей и микроорганизмов. Особенно важно для людей с аллергией и детей.",
   },
   {
-    title: "Естественная динамика",
+    title: "Сохранение формы и объёма",
     description:
-      "Движение поддерживает восприятие, но никогда не отвлекает. Анимация, которая ощущается естественно, как свет, скользящий по комнате.",
+      "После чистки подушка восстанавливает свою первоначальную форму. Мы используем режимы, подходящие для каждого типа наполнителя.",
   },
   {
-    title: "Вневременная эстетика",
-    description: "Элегантный, спокойный и долговечный визуальный язык. Дизайн, который превосходит тренды и стареет с достоинством.",
+    title: "Свежий результат",
+    description: "Приятный запах, мягкость и ощущение новой подушки — результат, который чувствуется с первой же ночи. Без химии и запаха.",
   },
 ]
 
@@ -53,11 +53,11 @@ export function Philosophy() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
           {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наша философия</p>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Как мы работаем</p>
             <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-              Дизайн с
+              Чистота,
               <br />
-              <HighlightedText>намерением</HighlightedText>
+              <HighlightedText>которую видно</HighlightedText>
             </h2>
 
             <div className="relative hidden lg:block">
@@ -72,7 +72,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Архитектура - это больше, чем конструкция. Это то, как мы воспринимаем мир. Мы создаем пространства, которые питают человеческий дух.
+              Регулярная чистка подушек — это не прихоть, а необходимость. За 3 года использования подушка накапливает пот, кожное сало, пыль и миллионы клещей. Мы это исправляем.
             </p>
 
             {philosophyItems.map((item, index) => (
